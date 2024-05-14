@@ -131,17 +131,7 @@ window = Tk()
 window.title("SlitherCraft")
 window.resizable(True, True)
 window.configure(bg="#111111")
-
-"""Making it launch in the middle of the screen"""
-window_width = WIDTH
-window_height = HEIGHT
-screen_width = window.winfo_screenwidth()
-screen_height = window.winfo_screenheight()
-
-x = (screen_width - window_width) // 2
-y = (screen_height - window_height) // 2
-
-window.geometry(f"{window_width}x{window_height}+{x}+{y}")
+window.state('zoomed')
 
 score = 0
 direction = "down"
@@ -152,7 +142,7 @@ label.pack()
 canvas = Canvas(window, bg=BACKGROUND, width=WIDTH, height=HEIGHT)
 canvas.pack()
 
-try_again_button = Button(window, text="Try Again", font=("Arial", 20), command=try_again)
+try_again_button = Button(window, text="Try Again", font=("Arial", 20), command=try_again, bg="#111111", fg="#FFFF00")
 
 window.update()
 
