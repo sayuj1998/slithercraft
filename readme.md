@@ -1,30 +1,34 @@
-Things to do remaining: 
+# **SlitherCraft**
+Welcome to SlitherCraft, a modern twist on the classic Snake game.
 
-Main menu:
-- Choose snake color
-- How to play directions
-- Play button
-- Exit button
+## **Game Overview**
+SlitherCraft is a simple and addictive game where you control a snake to collect items, grow longer, and avoid collisions. The objective is to achieve the highest score possible by collecting items that appear randomly on the screen.
 
-Special item:
-- Speed is doubled
-- Score is tripled
-- Special item is a probability
-- 20% chance to appear each time the snake consumes an item
-- Countdown timer to show how much time is left
-- Pause for a second and have a text appear saying "Insanity mode activated"
-- Goes away if the player doesn't pick it up within 5 seconds
+## **Installation**
+To play SlitherCraft, you'll need to have Python installed on your computer. Additionally, you'll need the tkinter library, which is usually included with Python. If tkinter is not installed, you can install it using the following command:
+```
+pip install tk
+```
+## **How to Play**
+1) Run the game script using Python:
+```
+python menu.py
+```
+2) The game menu will open.
+3) Choose your game mode.
+4) Use the arrow keys or WASD keys to control the direction of the snake.
+5) Collect items (blue rectangles) to grow the snake and increase your score.
 
-Nightmare game mode:
-- Access-able from the main menu
-- 2x speed
-- Special item for this makes it 4x speed and 6x score
+## **Scoring**
+* Each item collected: +1000 points
+* Current score displayed at the top.
 
-Coop
-- Enter the number of players
-- Next player button = reset the game
-- Scoreboard showing players' scores
+## **Resetting the Game**
+The game ends when the snake collides with the walls of the game window or with itself. When the game is over:
+* A "DEFEAT" message is displayed.
+* The final score is shown.
+* A "Try Again" button appears to restart the game.
 
-- Make a youtube video showing gameplay and explaining the game
+Enjoy playing SlitherCraft and aim for the highest score!
 
 

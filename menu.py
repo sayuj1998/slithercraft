@@ -23,15 +23,11 @@ def instructions():
         
         Medium mode:
         - Every rule from Easy Mode applies
-        - The game is 1.5x faster
-        - Special items makes it 3x faster but gives you 6x the score
-        - Special items last for 5 seconds until it disappears
+        - The game is 1.5x faster       
         
         Nightmare mode:
         - Every rule from Easy Mode applies
-        - The game is 2x faster
-        - Special items makes it 4x faster but gives you 8x the score
-        - Special items last for 5 seconds until it disappears       
+        - The game is 2x faster        
         """
 
     instructions_window = Toplevel()
