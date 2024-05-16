@@ -1,3 +1,4 @@
+![5aa31171d1a529e2ffea53b17aa87fd1](https://github.com/sayuj1998/slithercraft/assets/164384520/c57115a1-fcbc-4a22-9291-a2a38144033a)
 # **SlitherCraft**
 Welcome to SlitherCraft, a modern twist on the classic Snake game.
 
