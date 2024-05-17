@@ -174,4 +174,3 @@ item = Item()
 advance_to_next_turn(snake, item)
 
 window.mainloop()
-
